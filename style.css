@@ -369,6 +369,10 @@ body {
     body {
         width: 100vw;
     }
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
     .marq {
         margin-right: -7rem;
     }
@@ -376,7 +380,7 @@ body {
         display: none;
     }
     .logo-pic {
-        width: 10vw;
+        width: 15vw;
         margin: 0.5rem -7.5rem;
     }
     .menu-btn {
