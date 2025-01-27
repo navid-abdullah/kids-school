@@ -368,7 +368,6 @@ body {
 @media screen and (max-width: 576px) {
     body {
         width: 100vw;
-        height: 100vh;
     }
     .marq {
         margin-right: -7rem;
