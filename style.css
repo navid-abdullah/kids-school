@@ -1,0 +1,495 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F7F7F7;
+    width: fit-content;
+}
+.clr-orng {
+    color: #FEA301;
+}
+.clr-skyblu {
+    color: #01ACFD;
+}
+.clr-cyan {
+    color: #05D4DF;
+}
+.clr-purple {
+    color: #5D58EF;
+}
+.hid {
+    display: none;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 8rem;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    gap: 1rem;
+}
+.logo-tag {
+    font-size: 1.5rem;
+}
+.logo-pic {
+    height: 20%;
+}
+.menu-item {
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0rem 2rem;
+}
+.menu-item:hover {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.contact-btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    color: white;
+    background-color: #FEA301;
+    border-radius: 0.5rem;
+}
+.contact-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: #FEA301;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 8rem;
+}
+.banner-heading {
+    font-size: 4rem;
+    width: 40rem;
+    margin: 0rem;
+    margin-top: 8rem;
+}
+.banner-desc {
+    font-size: 1.2rem;
+    font-weight: 300;
+    width: 37rem;
+}
+.enrol-btn {
+    padding: 0.6rem 2rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+}
+.enrol-btn:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.standard-div {
+    /* text-align: center; */
+    background-image: url(assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.standard-heading {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    text-align: center;
+    margin: 0rem 8rem;
+    gap: 1.25rem;
+    flex: 1;
+}
+.card1 {
+    border: none;
+    max-width: 33.33%;
+    text-align: center;
+    padding: 3rem 0rem;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, #DEF5FF, #ffffff3a);
+}
+.card1:hover {
+    background: linear-gradient(0deg, #DEF5FF, #ffffff3a);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.card2 {
+    border: none;
+    max-width: 33.33%;
+    text-align: center;
+    padding: 3rem 0rem;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, #FFF4DC, #ffffff3a);
+}
+.card2:hover {
+    background: linear-gradient(0deg, #FFF4DC, #ffffff3a);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.card3 {
+    border: none;
+    max-width: 33.33%;
+    text-align: center;
+    padding: 3rem 0rem;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, #EEE1FF, #ffffff3a);
+}
+.card3:hover {
+    background: linear-gradient(0deg, #EEE1FF, #ffffff3a);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.card1-heading {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 1.5rem 0rem;
+}
+.card1-desc {
+    color: #808080;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+.read-more1 {
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 30rem;
+}
+.arrows {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.arrow-btn {
+    margin: 3rem 0rem;
+    border-radius: 60%;
+    border: none;
+    color: white;
+    background-color: #FEA301;
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+.arrow-btn:hover {
+    background-color: white;
+    color: #FEA301;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.stories-div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: 
+        linear-gradient(0deg, #fea1015c, #ffffff44), /* Gradient layer */
+        url(assets/bg.png);
+}
+.story-cards{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1.2rem;
+    margin: 0rem 8rem;
+}
+.story-card1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2;
+    border: none;
+    border-radius: 2rem;
+    max-width: 37rem;
+    background-color: white;
+}
+.story-card1:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+.story-card-img1 {
+    border-radius: 2rem 2rem 0rem 0rem;
+    width: 100%;
+}
+.story-card-content {
+    padding: 0rem 3rem;
+}
+.date-btn {
+    padding: 0.7rem 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: #05D4DF;
+    color: white;
+    position: absolute;
+    margin-top: -3.2rem;
+}
+.story-card1-heading {
+    font-size: 1.8rem;
+    padding-top: 1.2rem;
+}
+.story-card1-desc {
+    color: #808080;
+    padding-bottom: 3rem;
+}
+.story-card2 {
+    grid-column: span 1;
+    background-color: white;
+    border-radius: 2rem;
+    max-width: 20rem;
+    max-height: 20rem;
+}
+.story-card2:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+.story-card2-img {
+    width: 100%;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+.story-card2-heading {
+    margin: 2.2rem 1.5rem 0rem 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.date2-btn {
+    padding: 0.7rem 1.3rem;
+    border-radius: 3rem;
+    border: none;
+    margin-top: 10.3rem;
+    margin-left: -16.5rem;
+    position: absolute;
+    color: white;
+    background-color: #95B226;
+}
+.date3-btn {
+    padding: 0.7rem 1.3rem;
+    border-radius: 3rem;
+    border: none;
+    margin-top: 10.3rem;
+    margin-left: -16.5rem;
+    position: absolute;
+    color: white;
+    background-color: #5D58F0;
+}
+.story-btn-div {
+    text-align: center;
+}
+.view-btn-div {
+    text-align: center;
+}
+.view-btn {
+    padding: 0.7rem 2.5rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    margin: 3rem 0rem;
+}
+.view-btn:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.footer-div {
+    display:flex;
+    justify-content: space-between;
+    background-color: #01ACFD;
+    padding: 4rem 8rem;
+}
+.kids-edu {
+    max-width: 20rem;
+}
+.kids-edu-icon {
+    display: flex;
+    gap: 0.8rem;
+}
+.kids-edu-heading {
+    font-weight: bolder;
+    font-size: 2.2rem;
+    max-width: 13rem;
+    margin: 0;
+    color: white;
+}
+.kids-edu-desc {
+    color: white;
+}
+.kids-edu-img {
+    width: 25%;
+    height: 25%;
+}
+.about-school {
+    display: flex;
+    flex-direction: column;
+}
+.about-heading {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0;
+}
+.about-item {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 1rem;
+}
+.about-item:hover {
+    color: #01ACFD;
+    background-color: white;
+    font-weight: bold;
+    padding: 0.25rem 2.8rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.touch-heading {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+.lin {
+    display: none;
+}
+/* } */
+
+@media screen and (max-width: 576px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    .marq {
+        margin-right: -7rem;
+    }
+    .logo-tag {
+        display: none;
+    }
+    .logo-pic {
+        width: 10vw;
+        margin: 0.5rem -7.5rem;
+    }
+    .menu-btn {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .contact-btn {
+        display: none;
+    }
+    .menu-btn {
+        margin: 0rem 0rem 0rem 22rem;
+        padding: 0rem;
+        font-size: 2rem;
+        border: none;
+        background-color: transparent;
+    }
+    .lin {
+        display: block;
+        background-color: #FEA301;
+        width: 128vw;
+        margin: 0.5rem 0rem;
+    }
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner-left {
+        text-align: center;
+    }
+    .hero-kid {
+        margin: 0rem 0rem 0rem -4.5rem;
+        width: 100vw;
+    }
+    .banner-heading {
+        font-size: 2.5rem;
+        width: 95vw;
+        margin: 2rem 0rem 0rem -4.5rem;
+    }
+    .banner-desc {
+        font-size: 1rem;
+        width: 95vw;
+        margin: 1rem 0rem 2rem -4.5rem;
+    }
+    .enrol-btn {
+        width: 9rem;
+        margin: 0rem 0rem 0rem 4rem;
+    }
+    .standard-div {
+        /* border: 1px solid black; */
+        margin: 0rem 2.8rem 0rem 0rem;
+    }
+    .standard-heading {
+        font-size: 2rem;
+        margin: 2rem -5rem 0rem 5rem;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: 324vw;
+        margin: 0rem 0rem 0rem 3rem;
+    }
+    .arrows {
+        display: none;
+    }
+    .stories-div {
+        /* width: 100%; */
+        margin: 0rem -7.2rem 0rem 0rem;
+    }
+    .story-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0rem 0rem 0rem 0rem;
+        /* width: 62vw; */
+        gap: 10px;
+    }
+    .story-card1 {
+        display: none;
+    }
+    .story-card2 {
+        /* width: 100%; */
+        margin: 0rem 0.5rem 0rem 0.5rem;
+        /* width: 62vw; */
+    }
+    .story-card2-heading {
+        font-size: 1rem;
+        margin: 1rem 0.8rem 1rem 0.8rem;
+    }
+    .date2-btn, .date3-btn {
+        font-size: 0.7rem;
+        margin: 8rem 0rem 0rem -13.5rem;
+    }
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        /* width: 124vw; */
+        margin: 0rem -7.2rem 0rem 0rem;
+    }
+    .kids-edu {
+        width: 100vw;
+        margin: 3rem 0rem 1rem 1.5rem;
+    }
+    .about-school {
+        margin: 1rem 0rem 1rem 1.5rem;
+    }
+    .touch-div {
+        margin: 1rem 0rem 1rem 1.5rem;
+    }
+}
